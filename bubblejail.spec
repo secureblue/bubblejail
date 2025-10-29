@@ -1,5 +1,5 @@
 Name:           bubblejail
-Version:        0.10.0
+Version:        0.10.1
 Release:        1%{?dist}
 Summary:        Bubblewrap based sandboxing for desktop applications
 
@@ -65,6 +65,9 @@ Bubblejail is a bubblewrap-based alternative to Firejail.
 
 
 %changelog
+* Sun Oct 29 2025 RoyalOughtness - 0.10.1-1
+- Update to 0.10.1
+
 * Sun Dec 22 2024 RoyalOughtness - 0.10.0-1
 - Update to 0.10.0
 
