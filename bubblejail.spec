@@ -1,5 +1,5 @@
 Name:           bubblejail
-Version:        0.10.2
+Version:        0.10.3
 Release:        1%{?dist}
 Summary:        Bubblewrap based sandboxing for desktop applications
 
