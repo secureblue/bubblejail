@@ -1,4 +1,5 @@
 Name:           bubblejail
+# renovate: datasource=github-releases depName=igo95862/bubblejail
 Version:        0.10.3
 Release:        1%{?dist}
 Summary:        Bubblewrap based sandboxing for desktop applications

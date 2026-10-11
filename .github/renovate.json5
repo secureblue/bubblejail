@@ -1,0 +1,16 @@
+{
+  extends: [
+    'config:best-practices',
+  ],
+  customManagers: [
+    {
+      customType: 'regex',
+      managerFilePatterns: [
+        '/\\.spec$/',
+      ],
+      matchStrings: [
+        '#\\s?renovate: datasource=(?<datasource>\\S+) depName=(?<depName>\\S+)\\s*Version:\\s*(?<currentValue>\\S+)',
+      ],
+    },
+  ],
+}
